@@ -61,14 +61,15 @@ li:hover{
 
 .main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 4fr;
     grid-template-rows: 1fr;
 
 }
 
 .main_description{
-    padding: 70px;
+   padding: 30px 0px 0px 50px;
 }
+
 .main_description-p{
     padding: 10px 0px;
     font-size: 18px;
@@ -79,6 +80,35 @@ li:hover{
     font-size: 2rem;
     font-weight: bold;
 }
+.main_content_card{
+    margin:35px 0px 0px 0px;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+.main_card{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.foto{
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid var(--text-Second-color);
+}
+.description_shor{
+    margin-left: 4px;
+}
+.description_shor p {
+    margin-top: 6px;
+}
+.description_shor p:nth-child(1) {
+    color: white;
+  }
+.description_shor p:nth-child(2) {
+    color: rgb(24, 23, 23);
+  }
+
 
 
 @media (max-width: 760px) {
