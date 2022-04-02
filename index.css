@@ -108,7 +108,9 @@ li:hover{
 .description_shor p:nth-child(2) {
     color: rgb(24, 23, 23);
   }
-
+.for_input {
+    display: block;
+}
 
 
 @media (max-width: 760px) {
