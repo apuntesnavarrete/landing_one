@@ -168,6 +168,23 @@ input::placeholder{
     color: var(--text-extra-color);
     padding: 20px;
 }
+
+@media (max-width: 864px) {
+    .foto{
+        width: 50px;
+    }
+    .main_content_card{
+        grid-gap: 0px;
+        margin:15px 0px 0px 0px;
+    }
+}
+@media (max-width: 798px) {
+    .foto{
+        width: 50px;
+        margin-top: 15px;
+    }
+}
+
 @media (max-width: 760px) {
 
     /*inicio de cabecera en movil*/
