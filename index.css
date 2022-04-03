@@ -3,6 +3,7 @@
     --text-prymary-color: rgb(26, 24, 24);
     --text-extra-color: rgb(197, 195, 195); 
     --text-Second-color: rgb(255, 255, 255);
+    --color-boton-prymary: hsl(36deg 95% 57%); 
   }
 
 *{
@@ -117,9 +118,11 @@ li:hover{
   }
 .for_input {
     display: block;
+    background-color: var(--text-extra-color);
+    border: 0.5px solid var(--text-extra-color);
 }
 .content_formulario{
-    background-color:var(--text-extra-color);
+    background-color:var(--text-Second-color);
     width: 350px;
     height: 400px;
     border-radius: 5px;
@@ -144,7 +147,27 @@ li:hover{
     height: 30px;
     border-radius: 10px;
 }
+.submit{
+    background-color: var(--color-boton-prymary);
+    width: 185px;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 20px;
+    color: var(--text-Second-color);
+    font-weight: bold;
+    font-size: 16px;
+    border: 0.5px solid white ;
+}
+input::placeholder{
+    color: var(--text-prymary-color);
+    padding-left: 15px;
+    
+}
 
+.for_parrafo{
+    color: var(--text-extra-color);
+    padding: 20px;
+}
 @media (max-width: 760px) {
 
     /*inicio de cabecera en movil*/
