@@ -206,6 +206,8 @@ input::placeholder{
         padding: 50px 15px;
         text-align: center;
         border: 1px solid var(--text-Second-color);
+        opacity: 0.9;
+        background-color: var(--body-bg-color);
     }
     
     .content_icono_menu{
@@ -259,7 +261,35 @@ input::placeholder{
     .main{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 300px;
     }
 
+    .main_Formulario{
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+    .main_description{
+        padding : 0px 24px;
+    }
+    .main_content_card{
+        grid-gap:45px;
+        margin: 15px auto;
+        width: 425px;
+    }
+}
+@media (max-width: 760px) {
+    .main_content_card{
+        grid-gap: 5px;
+        width: 350px;
+    }
+    
+}
+@media (max-width: 374px) {
+    .content_icono_menu{
+        right: 25px;
+    }
+}
+@media (max-width: 350px) {
+    .content_icono_menu{
+        right: 10px;
+    }
 }
